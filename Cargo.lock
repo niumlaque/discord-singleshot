@@ -394,6 +394,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "discord-singleshot"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "serde",
+ "serenity",
+ "tokio",
+ "toml",
+]
+
+[[package]]
 name = "encoding_rs"
 version = "0.8.34"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1300,18 +1312,6 @@ dependencies = [
  "cfg-if",
  "cpufeatures",
  "digest",
-]
-
-[[package]]
-name = "singleshot-discord"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "serde",
- "serenity",
- "tokio",
- "toml",
 ]
 
 [[package]]

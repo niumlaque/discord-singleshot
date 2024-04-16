@@ -1,7 +1,7 @@
 use anyhow::Result;
 use clap::Parser;
+use discord_singleshot::discord::{self, LengthBasedSplitter};
 use serde::Deserialize;
-use singleshot_discord::discord::{self, LengthBasedSplitter};
 use std::io::{BufRead, Read};
 use std::path::{Path, PathBuf};
 
